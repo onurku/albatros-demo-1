@@ -1,0 +1,10 @@
+authorizer: index.authorizer
+init: index.init
+getState: index.getState
+methods:
+  - method: sayHello
+    type: READ
+    handler: index.sayHello
+  - method: setState
+    type: WRITE
+    handler: index.setState
