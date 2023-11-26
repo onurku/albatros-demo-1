@@ -1,0 +1,11 @@
+authorizer: index.authorizer
+init: index.init
+getState: index.getState
+methods:
+  - method: update
+    type: WRITE
+    InputModel: CartInput
+    handler: index.update
+  - method: setState
+    type: WRITE
+    handler: index.setState

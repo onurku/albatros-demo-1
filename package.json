@@ -2,6 +2,12 @@
     "name": "retter-io-sample",
     "version": "0.0.1",
     "dependencies": {
-        "@retter/rdk": "2.0.5"
+        "@retter/rdk": "^2.0.5"
+    },
+    "scripts": {
+        "deploy": "rio deploy --profile demo --ignore-approval "
+    },
+    "devDependencies": {
+        "@types/node": "^20.10.0"
     }
 }

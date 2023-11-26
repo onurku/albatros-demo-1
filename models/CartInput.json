@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "required": [
+    "itemId",
+    "qty"
+  ],
+  "properties": {
+    "itemId": {
+      "type": "string"
+    },
+    "qty": {
+      "type": "number"
+    }
+  }
+}
