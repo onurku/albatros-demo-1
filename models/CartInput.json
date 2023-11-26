@@ -1,14 +1,22 @@
 {
+  "title": "Cart",
   "type": "object",
   "required": [
     "itemId",
-    "qty"
+    "qty",
+    "price"
   ],
   "properties": {
     "itemId": {
       "type": "string"
     },
     "qty": {
+      "type": "number"
+    },
+    "price": {
+      "type": "number"
+    },
+    "total": {
       "type": "number"
     }
   }

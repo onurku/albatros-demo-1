@@ -6,6 +6,13 @@ methods:
     type: WRITE
     InputModel: CartInput
     handler: index.update
+  - method: updateQue
+    type: QUEUED_WRITE
+    InputModel: CartInput
+    handler: index.update
+  - method: clean
+    type: WRITE
+    handler: index.clean
   - method: setState
     type: WRITE
     handler: index.setState
